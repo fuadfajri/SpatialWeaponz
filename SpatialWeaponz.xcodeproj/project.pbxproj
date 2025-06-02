@@ -34,9 +34,22 @@
 		066685F42DEDB13E00C4350B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		066685F82DEDB1DD00C4350B /* Exceptions for "SpatialWeaponz" folder in "SpatialWeaponz" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 066685C62DEDAFFE00C4350B /* SpatialWeaponz */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		066685C92DEDAFFE00C4350B /* SpatialWeaponz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				066685F82DEDB1DD00C4350B /* Exceptions for "SpatialWeaponz" folder in "SpatialWeaponz" target */,
+			);
 			path = SpatialWeaponz;
 			sourceTree = "<group>";
 		};
@@ -385,8 +398,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpatialWeaponz/Preview Content\"";
+				DEVELOPMENT_TEAM = 4D8MTY7F2R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpatialWeaponz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,8 +428,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpatialWeaponz/Preview Content\"";
+				DEVELOPMENT_TEAM = 4D8MTY7F2R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpatialWeaponz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
