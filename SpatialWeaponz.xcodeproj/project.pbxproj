@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		066685F62DEDB14300C4350B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 066685F42DEDB13E00C4350B /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		066685D82DEDB00000C4350B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,22 +31,13 @@
 		066685C72DEDAFFE00C4350B /* SpatialWeaponz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialWeaponz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		066685D72DEDB00000C4350B /* SpatialWeaponzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialWeaponzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		066685E12DEDB00000C4350B /* SpatialWeaponzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialWeaponzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		066685F42DEDB13E00C4350B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		066685C92DEDAFFE00C4350B /* SpatialWeaponz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SpatialWeaponz;
-			sourceTree = "<group>";
-		};
-		066685DA2DEDB00000C4350B /* SpatialWeaponzTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SpatialWeaponzTests;
-			sourceTree = "<group>";
-		};
-		066685E42DEDB00000C4350B /* SpatialWeaponzUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SpatialWeaponzUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +70,8 @@
 		066685BE2DEDAFFE00C4350B = {
 			isa = PBXGroup;
 			children = (
+				066685F42DEDB13E00C4350B /* .gitignore */,
 				066685C92DEDAFFE00C4350B /* SpatialWeaponz */,
-				066685DA2DEDB00000C4350B /* SpatialWeaponzTests */,
-				066685E42DEDB00000C4350B /* SpatialWeaponzUITests */,
 				066685C82DEDAFFE00C4350B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +124,6 @@
 			dependencies = (
 				066685D92DEDB00000C4350B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				066685DA2DEDB00000C4350B /* SpatialWeaponzTests */,
-			);
 			name = SpatialWeaponzTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +143,6 @@
 			);
 			dependencies = (
 				066685E32DEDB00000C4350B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				066685E42DEDB00000C4350B /* SpatialWeaponzUITests */,
 			);
 			name = SpatialWeaponzUITests;
 			packageProductDependencies = (
@@ -212,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066685F62DEDB14300C4350B /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
